@@ -2,7 +2,7 @@ import { Pool } from 'pg';
 import { nanoid } from 'nanoid';
 import InvariantError from '../exceptions/InvariantError.js';
 import NotFoundError from '../exceptions/NotFoundError.js';
-import { songDBToModel } from '../utils/SongDBToModel.js';
+import { songDBToModel } from '../utils/songDBToModel.js';
 
 class SongService {
   constructor() {
