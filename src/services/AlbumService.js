@@ -1,7 +1,7 @@
 import { Pool } from 'pg';
 import { nanoid } from 'nanoid';
-import InvariantError from '../exceptions/invariantError.js';
-import NotFoundError from '../exceptions/notFoundError.js';
+import NotFoundError from '../exceptions/NotFoundError.js';
+import InvariantError from '../exceptions/InvariantError.js';
 
 class AlbumService {
   constructor() {

@@ -1,5 +1,5 @@
 import { bodyAlbumSchema } from './schema.js';
-import InvariantError from '../../exceptions/invariantError.js';
+import InvariantError from '../../exceptions/InvariantError.js';
 
 export const albumValidator = {
   validateAlbumBody: (reqBody) => {
